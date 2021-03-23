@@ -18,6 +18,6 @@ export default function bindRoutes(app) {
   app.post('/add-bug', BugController.newBug);
   app.get('/features', FeatureController.allFeatures);
   app.post('/add-feature', FeatureController.addFeature);
-  app.get('/login', UserController.landingPage);
+
   app.post('/login', UserController.login);
 }
